@@ -1,4 +1,4 @@
-<script>
+
 var historyLogs = JSON.parse(localStorage.getItem('israr_vg_history')) || [];
 var trashBin = JSON.parse(localStorage.getItem('israr_vg_trash')) || [];
 let isHistoryMarkMode = false;
@@ -1121,4 +1121,4 @@ if(document.readyState==='loading'){
 function escapeHtml(str) {
   return String(str || '').replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
-</script>
+
